@@ -1,0 +1,12 @@
+package ch06;
+
+public class OrderTest {
+
+	public static void main(String[] args) {
+		
+		Order namse = new Order("202109150003", "01012345678", "부산광역시 강서구 가락대로 1393", "20210915", "130258", "18000", "알싸한 마늘치킨", "0003");
+		
+		namse.showOrderinfo();
+	}
+
+}
