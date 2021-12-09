@@ -24,7 +24,7 @@ public class MyListQueue extends MyLinkedList implements IQueue{
 			newNode = addElement(data);
 			rear = newNode;
 		}
-		System.out.println(newNode.getData());
+		System.out.println(newNode.getData() + " add");
 	}
 
 	@Override
